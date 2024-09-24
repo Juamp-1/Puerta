@@ -1,0 +1,22 @@
+[
+    {
+        "nombre" : "Jorge",
+        "email" : "jorge@gmail.com",
+        "edad" : 25,
+        "cursa" : true
+    },
+{   
+    "nombre" : "Ana",
+    "email" : "ana@gmail.com",
+    "edad" : 30,
+    "cursa" : false
+},
+{
+    "nombre" : "Juan",
+    "email" : "juan@gmail.com",
+    "edad" : 35,
+    "cursa" : true
+}
+
+]
+

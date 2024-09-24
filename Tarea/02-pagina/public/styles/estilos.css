@@ -1,0 +1,54 @@
+header img{
+    display: flex;
+    align-items: center;
+    
+}
+.header img a:first-child{
+   
+    float: left;
+    margin-right: 10px 
+}
+
+
+body {
+    background-color: rgb(255, 230, 0);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    }
+ul{
+        text-align: left;
+      }
+h2 {
+    color: rgb(115, 255, 0);
+    background-color:rgba(255, 0, 0, 0.342);
+}
+.parrafo{
+    font-size: 30px;
+    line-height: 40px;
+}
+.parrafo_izquierdo{
+    float: left;
+    color: aquamarine;
+}
+.parrafo_derecho{
+    float: right;
+    color:brown
+}
+
+
+
+.box-menu--main{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: var(--color-azul2);
+    color: #ffff;
+    border-radius: 5px;
+    width: 40px; 
+    height: 40px;
+    position: absolute; 
+    top: 70%; 
+    left: 50%;
+    margin: 0px; 
+    padding: 0px; 
+}

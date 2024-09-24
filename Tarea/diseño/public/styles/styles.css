@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("./variables.css");
+@import url("./general.css");
+
+html {
+  font-size: 18px;
+}
+/* HEADER*/
+.header {
+  background-color: var(--color-azul);
+  padding: 30px 10px 20px;
+}
+
+.header__a--logo {
+  text-transform: uppercase;
+  display: block;
+}
+
+.header__a--menu {
+  background-color: var(--color-verde);
+  display: inline-block;
+  padding: 10px;
+  border: 1px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 1rem;
+  border-radius: 3px;
+}
+.header h2 {
+  font-size: 24px;
+}
+
+.nav--principal ul {
+  list-style: none;
+  display: none;
+}
+
+/* SECTION--BANNER*/
+.section--banner {
+  background-color: var(--color-verde);
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 10px 50px;
+}
+
+.section--banner h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 48px;
+  margin: 30px 0;
+  text-align: center;
+}
+.section--banner p {
+  font-size: 1.35rem;
+}
+
+/* SECTION--PORTFOLIO*/
+.section--porfolio {
+  text-align: center;
+}
+
+.section--porfolio img {
+  width: 300px;
+}
+
+/* SECTION--ABOUT*/
+.section--about {
+  background-color: var(--color-verde);
+  color: #ffffff;
+  text-align: center;
+}
+.section--about span{
+    margin: 5px;
+}
+.section--about p {
+  text-align: left;
+  font-size: 1.2rem;
+  line-height: 30px;
+  padding: 10px;
+}
+.section--about a{
+    border: 2px solid #ffffff;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+/* SECTION--CONTACT*/
+
+/* FOOTER */
+.footer {
+  background-color: var(--color-azul);
+}
