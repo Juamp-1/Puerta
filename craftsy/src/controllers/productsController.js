@@ -1,10 +1,14 @@
-const path = require('path');
+const path = require('path')
 
+module.exports = {
+    list : (req,res) => {
+        return res.render('products')
 
-module.exports ={
-    list: (req,res) => {res.sendFile(path.join(__dirname, 'views','products.html'))},
+    },
+    detail : (req,res) => {
 
-    details :(req,res) => {res.sendFile(path.join(__dirname, 'views','products-details.html'))},
+        console.log(req.params)
+        return res.render('products-details')
 
-};
-
+    }
+}
