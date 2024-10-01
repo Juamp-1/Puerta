@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <%- include('./partials/head') %>
+  <%- include('./partials/head',{ title : 'Home' }) %>
   <body>
     <div class="container">
       <!-- Contenedor ppal -->
       <%- include('./partials/header') %>
-      <!-- Cabecera -->
-
       <main>
         <!-- Cuerpo principal del sitio -->
         <section class="product-container">
           <!-- Contenedor de todos los productos -->
-		 <%-for (let i = 0; i < products.length; i++) {
-			const element = products[i];
-			
-		 }
 
+    
+		 
+		  <% products.forEach(({id, photo, title})=> { %>
+          <article class="productos">
+            <img class="main-photo" src="/img/<%= photo %>" alt=>
+            <h2 class="name"><%= title %></h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore
+              <a class="more" href="/products/<%= id %>"> ver mas</a>
+            </p>
+          </article>
+		
+          <% }) %>
         </section>
         <aside class="left-column">
           <h2>Tutoriales</h2>

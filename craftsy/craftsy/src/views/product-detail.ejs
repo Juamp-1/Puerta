@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<%- include('./partials/head', {
+        title : "Detalles del producto"
+        })   
+        %>
+
+<body>
+    <%- include('./partials/header') %>
+
+<main>
+    <div class="conteiner">
+
+        <div class="card">
+            <img src="/img/<%= photo  %>" alt="">
+            <div class="card-body">
+                <h5 class="card-title"><%= title %>  </h5>
+                <p class="card-text"> Some quick example text 
+                </p>
+                    <a href="#" class="btn btn-primary"> Go somewhere else</a> 
+            </div>
+        </div>
+      
+
+
+    </div>
+</main>   
+</body>
+</html>
